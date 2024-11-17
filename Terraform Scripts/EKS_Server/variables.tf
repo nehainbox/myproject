@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "us-east-2"
+  default = "us-east-1"
 }
 variable "my_instance_type" {
   type    = string
@@ -11,7 +11,7 @@ variable "my_instance_type" {
 variable "my_key" {
   description = "AWS EC2 Key pair that needs to be associated with EC2 Instance"
   type        = string
-  default     = "varad-cicd-key"
+  default     = "terraform_pem"
 }
 
 variable "ingressrules" {
