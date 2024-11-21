@@ -116,7 +116,8 @@ sudo service docker start
 sudo systemctl start docker
 #Reboot
 init 6
-Start docker
+#Start docker
+sudo systemctl start docker
 sudo su – ansadmin
 cd /opt/docker/
 ```
